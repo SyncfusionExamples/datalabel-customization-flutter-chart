@@ -1,4 +1,4 @@
-# datalabel-customization-flutter-chart
+# Datalabel customization flutter chart
 
 Flutter Cartesian chart widget provides support for customizing the data labels in the chart using callback events. Callback Events are Callback functions or methods which we pass as an argument into another function or method and can perform an action when we require it. Likewise, chart widget provides callback event called OnDataLabelRender to customize the data labels as required. 
 

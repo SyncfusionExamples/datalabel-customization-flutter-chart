@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   args.textStyle = textStyle ?? args.textStyle;
                 },
                 primaryXAxis: CategoryAxis(),
-                series: <ChartSeries<SalesData, String>>[
+                series: <LineSeries<SalesData, String>>[
                   LineSeries<SalesData, String>(
                       dataSource: <SalesData>[
                         SalesData('Jan', 10),
